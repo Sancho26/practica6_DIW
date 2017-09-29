@@ -67,3 +67,54 @@ a:hover{
 	width: 320px;
 	height: 70px;
 }
+
+#right_section_box{
+	margin-bottom: 15px;
+	padding: 10px;
+	border: solid 1px;
+	border-color: #ccc;
+}
+
+#right_section_box h1 {
+	color: #c60;
+	text-decoration: underline;
+	font-size: 15px;
+	margin-bottom: 9px;
+}
+
+#right_section_box h2{
+	color: #333;
+	font-size: 11px;
+	padding: 0;
+}
+
+#right_section_box h2 a{
+	text-decoration: none;
+}
+
+#right_section_box h2 a:hover{
+	text-decoration: underline;
+}
+
+#right_section_box p{
+	color: #333;
+	text-align: justify;
+	font-size: 11px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+#right_section_box p.last{
+	margin: 0;
+}
+
+#galeria{
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+
+#right_section_box h1+a>img{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
